@@ -1,0 +1,322 @@
+
+/* Background */
+
+#paper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Top navigation */
+
+.topnav {
+    height: 70px;
+    width: 100%;
+    background-color: rosybrown;
+    position: fixed;
+    z-index: 4
+}
+
+.title {
+    font-family: Didot, serif;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+    top: 40px;
+    color: white;
+}
+
+.icon {
+    height: 22px;
+    width: 30px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 25px;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.top {
+    top: 5px;
+}
+
+.mid {
+    top: 12px;
+}
+
+.bot {
+    top: 19px;
+}
+
+.menu {
+    width: 180px;
+    height: 120px;
+    background: white;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.global {
+    font-family: "Didot";
+    left: 80px;
+    margin-left: 50px;
+    margin-top: 70px;
+    line-height: 50px;
+    color: black;
+    font-size: 18px;
+}
+
+/* Main cover */
+
+.arrow {
+    position: fixed;
+    left: 1050px;
+    top: 330px;
+    transform: rotate(1deg);
+    z-index: 2
+}
+
+.container {
+    z-index: 2;
+    width: 1000px;
+    height: 700px;
+    position: fixed;
+    background-position-x: center;
+    left: 180px;
+    top: 80px;
+}
+
+.paragraph {
+    width: 650px;
+    height: 300px;
+    font-size: 18px;
+    font-family: "Gill Sans Nova";
+    line-height: 40px;
+    top: 95px;
+    left: 350px;
+    position: relative;
+}
+
+.helping {
+    font-size: 50px;
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    top: 100px;
+    left: 350px;
+    position: relative;
+}
+
+@keyframes one_fade {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+
+.one {
+    opacity: 0;
+    animation: one_fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    font-size: 70px;
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    color: darkolivegreen;
+    top: 100px;
+    left: 500px;
+    position: relative;
+}
+
+.at {
+    font-size: 50px;
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    top: 105px;
+    left: 630px;
+    position: relative;
+}
+
+.woman {
+    left: -150px;
+    top: 50px;
+    position: absolute;
+}
+
+/* Fact Section starts here */
+
+.container2 {
+    z-index: 3;
+    background-color: white;
+    position: absolute;
+    min-width: 1350px;
+    height: 2000px;
+    top: 900px;
+    left: 45px;
+}
+
+.facts {
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 20px;
+    border-bottom: solid mistyrose 20px;
+}
+
+/* Fact One */
+
+.fact1 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 680px;
+    font-family: "Gill Sans Nova";
+    font-size: 25px;
+    line-height: 40px;
+    /*border: solid pink 2px;*/
+}
+
+.marker {
+    font-family: "Didot";
+    font-size: 55px;
+    color: navy;
+}
+
+.sweater {
+    top: 150px;
+    left: 130px;
+    position: absolute;
+}
+
+.pants {
+    top: 300px;
+    left: 340px;
+    position: absolute;
+    transform: rotate(10deg);
+}
+
+.socks {
+    top: 390px;
+    left: 260px;
+    position: absolute;
+}
+
+/* Fact Two */
+
+.fact2 {
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    font-family: "Gill Sans Nova";
+    font-size: 25px;
+    width: 600px;
+    height: 300px;
+    line-height: 50px;
+    text-align: right;
+    /*border: solid saddlebrown 2px;*/
+}
+
+.marker2 {
+    font-family: "Didot";
+    font-size: 55px;
+    color: orange;
+}
+
+
+.truck {
+    top: 650px;
+    left: 650px;
+    position: absolute;
+}
+
+
+/* Fact Three */
+
+.fact3 {
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+    font-family: "Gill Sans Nova";
+    font-size: 25px;
+    width: 600px;
+    height: 300px;
+    line-height: 40px;
+    text-align: left;
+    /*border: solid saddlebrown 2px;*/
+}
+
+.marker3 {
+    font-family: "Didot";
+    font-size: 55px;
+    color: dodgerblue;
+}
+
+.shirt {
+    top: 1000px;
+    left: 80px;
+    position: absolute;
+    transform: rotate(10deg);
+}
+
+.water {
+    top: 1300px;
+    left: 450px;
+    position: absolute;
+}
+
+/* Fact Four */
+
+.fact4 {
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+    font-family: "Gill Sans Nova";
+    font-size: 25px;
+    width: 600px;
+    height: 300px;
+    line-height: 50px;
+    text-align: right;
+    /*border: solid saddlebrown 2px;*/
+}
+
+.marker4 {
+    font-family: "Didot";
+    font-size: 55px;
+    color: darkolivegreen;
+}
+
+.earth {
+    top: 1500px;
+    left: 630px;
+    position: absolute;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    top: 2940px;
+    left: 555px;
+    font-family: "Didot";
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    /*border: solid saddlebrown 2px;*/
+}

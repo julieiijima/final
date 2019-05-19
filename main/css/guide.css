@@ -1,0 +1,284 @@
+/* Background */
+
+#paper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Top navigation */
+
+.topnav {
+    height: 70px;
+    width: 100%;
+    background-color: rosybrown;
+    position: fixed;
+    z-index: 4
+}
+
+.title {
+    font-family: Didot, serif;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+    top: 40px;
+    color: white;
+    z-index: 3
+}
+
+.icon {
+    height: 22px;
+    width: 30px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 25px;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.top {
+    top: 5px;
+}
+
+.mid {
+    top: 12px;
+}
+
+.bot {
+    top: 19px;
+}
+
+.menu {
+    width: 180px;
+    height: 120px;
+    background: white;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.global {
+    font-family: "Didot";
+    left: 80px;
+    margin-left: 50px;
+    margin-top: 70px;
+    line-height: 50px;
+    color: black;
+    font-size: 18px;
+}
+
+
+/* Main Cover */
+
+.arrow {
+    position: fixed;
+    left: 1050px;
+    top: 330px;
+    transform: rotate(1deg);
+    z-index: 2
+}
+
+.intro {
+    width: 650px;
+    height: 300px;
+    font-size: 18px;
+    font-family: "Gill Sans Nova";
+    line-height: 40px;
+    top: 500px;
+    left: 400px;
+    position: relative;
+}
+
+
+@keyframes cover_move {
+    0%, 100% {left: 0;}
+    50% {left: -150px;}
+}
+
+.cover {
+    position: relative;
+    animation: cover_move 2s;
+}
+
+
+.guide {
+    font-size: 90px;
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+
+.thrifting {
+    font-size: 130px;
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    color: darkolivegreen;
+    top: 300px;
+    left: 400px;
+    position: absolute;
+}
+
+.dress {
+    left: 530px;
+    top: 130px;
+    position: absolute;
+}
+
+
+/* Go on Wednesdays */
+.guide1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+    font-family: "Gill Sans Nova";
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    /*border: solid pink 2px;*/
+}
+
+.bold {
+    font-size: 30px;
+    font-family: "Mrs Eaves OT";
+    border-bottom: solid black 2px;
+}
+
+.wed {
+    top: 850px;
+    left: 50px;
+    position: absolute;
+}
+
+.calendar {
+    top: 900px;
+    left: 400px;
+    position: absolute;
+}
+
+
+/* Shop out of season */
+.guide2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1600px;
+    left: 300px;
+    font-family: "Gill Sans Nova";
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    /*border: solid pink 2px;*/
+}
+
+.season {
+    top: 1400px;
+    left: 500px;
+    position: absolute;
+}
+
+
+/* Don't give up */
+
+.guide3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 800px;
+    font-family: "Gill Sans Nova";
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    /*border: solid pink 2px;*/
+}
+
+.rack {
+    top: 2000px;
+    left: 200px;
+    position: absolute;
+}
+
+
+
+/* Recommended Stores */
+.container {
+    z-index: 2;
+    background-color: white;
+    position: absolute;
+    min-width: 1350px;
+    height: 700px;
+    top: 2600px;
+    left: 45px;
+}
+
+.recommended {
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    width: 260px;
+    height: 20px;
+    border-bottom: solid mistyrose 20px;
+}
+
+.stores {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    font-family: "Gill Sans Nova";
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    /*border: solid pink 2px;*/
+}
+
+.savers {
+    top: 120px;
+    left: 800px;
+    position: absolute;
+}
+
+.goodwill {
+    top: 340px;
+    left: 920px;
+    position: absolute;
+}
+
+.salvation {
+    top: 360px;
+    left: 750px;
+    position: absolute;
+}
+
+
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    top: 3350px;
+    left: 555px;
+    font-family: "Didot";
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    /*border: solid saddlebrown 2px;*/
+}
